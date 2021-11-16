@@ -1,0 +1,14 @@
+package E1_Working_with_Abstraction.P1_Card_Suit;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Card Suits:");
+        for (CardSuits cardSuit : CardSuits.values()) {
+            System.out.printf("Ordinal value: %d; Name value: %s\n", cardSuit.ordinal(), cardSuit.name());
+//            or
+//            System.out.printf("Ordinal value: %d; Name value: %s\n", cardSuit.ordinal(), cardSuit);
+//            or
+//            System.out.printf("Ordinal value: %d; Name value: %s\n", cardSuit.ordinal(), cardSuit.toString());
+        }
+    }
+}
